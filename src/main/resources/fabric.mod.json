@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "fabric_ponder",
+  "version": "${version}",
+  "name": "Fabric ponder",
+  "description": "",
+  "authors": [
+    "cyclic007"
+  ],
+  "contact": {
+    "cyclic007dev@gmail.com"
+    "repo": "https://github.com/sebas/Fabric ponder"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/fabric_ponder/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "org.goodluck.fabric_ponder.client.FabricPonderClient"
+    ],
+    "main": [
+      "org.goodluck.fabric_ponder.FabricPonder"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
