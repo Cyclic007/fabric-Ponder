@@ -19,7 +19,7 @@
       "org.goodluck.fabric_ponder.client.FabricPonderClient"
     ],
     "main": [
-      "org.goodluck.fabric_ponder.FabricPonder.java"
+      "org.goodluck.fabric_ponder.FabricPonder"
     ]
   },
   "depends": {
