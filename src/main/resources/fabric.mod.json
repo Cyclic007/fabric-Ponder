@@ -8,7 +8,7 @@
     "cyclic007"
   ],
   "contact": {
-    "cyclic007dev@gmail.com"
+    "email":"cyclic007dev@gmail.com",
     "repo": "https://github.com/sebas/Fabric ponder"
   },
   "license": "All-Rights-Reserved",
@@ -19,7 +19,7 @@
       "org.goodluck.fabric_ponder.client.FabricPonderClient"
     ],
     "main": [
-      "org.goodluck.fabric_ponder.FabricPonder"
+      "org.goodluck.fabric_ponder.FabricPonder.java"
     ]
   },
   "depends": {
